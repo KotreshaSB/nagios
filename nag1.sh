@@ -1,5 +1,5 @@
 #!/bin/sh 
-service mysql status | grep 'active (running)' > /dev/null 2>&1
+service nagios status | grep 'active (running)' > /dev/null 2>&1
 
 if [ $? != 0 ]
 then
