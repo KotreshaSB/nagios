@@ -1,2 +1,3 @@
 #!/bin/sh 
-echo "hi world...." | sudo tee /home/ubuntu/kotresha/jai
+#echo "hi world...." | sudo tee /home/ubuntu/kotresha/jai
+sudo service nagios stop
