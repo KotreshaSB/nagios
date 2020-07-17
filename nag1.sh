@@ -1,4 +1,4 @@
 #!/bin/sh 
-' "sudo touch jai"
- "sudo service nagios stop"
+' 
+ sudo service nagios stop
  '
