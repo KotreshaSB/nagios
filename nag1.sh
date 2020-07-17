@@ -7,7 +7,7 @@ port=$2
 user=$3
 sed -i -e "s/\(address=\).*/\1$1/" \
 -e "s/\(port=\).*/\1$2/" \
--e "s/\(username=\).*/\1$3/" xyz.cfg'
+-e "s/\(username=\).*/\1$3/" /home/ubuntu/xyz.cfg'
 #'sudo vi /etc/apache2/conf-available/nagios.conf'
 
 #'cd /home/ubuntu/hiyan'
